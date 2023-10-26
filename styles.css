@@ -1,0 +1,50 @@
+body{
+	background-color: gray;
+}
+
+h2{
+	margin-top: 100px;
+}
+
+.Horisontal {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	
+
+}
+.Horisontal a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: fff2bc;
+  border-bottom: 5px solid #5757a0;
+}
+.Horisontal li{
+	display: inline;
+	float: left;
+	
+}
+.Vertical {
+	list-style-type:none ;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 25px;
+	width: 300px;
+	
+}
+.Vertical a{
+	
+	display: block;
+  	border-top: 1px solid blue;
+  	text-decoration: none;
+  	height: 30px;
+  	line-height: 30px;
+
+}
+.Vertical li{
+	display: block;
+
+}
